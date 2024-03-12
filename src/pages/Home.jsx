@@ -19,7 +19,7 @@ function Home() {
             <Header />
             <main>
                 <Intro />
-                <Section anchorId="projets" title={"Projets"} number={"1"}>
+                <Section anchorId="projets" title={"Projets"} number={"01"}>
                     <Projects
                         title={"Booki"}
                         img={booki}
@@ -56,13 +56,13 @@ function Home() {
                         text={`Création du Backend du site "Mon vieux grimoires" qui permet l'ajout, la suppression, la modification et la notation de livre.`}
                     />
                 </Section>
-                <Section anchorId="about" title={"À propos"} number={"2"}>
+                <Section anchorId="about" title={"À propos"} number={"02"}>
                     <About />
                 </Section>
-                <Section anchorId="technologies" title={"Technologies"} number={"3"}>
+                <Section anchorId="technologies" title={"Technologies"} number={"03"}>
                     <Technologies />
                 </Section>
-                <Section anchorId="contact" title={"Contact"} number={"4"} />
+                <Section anchorId="contact" title={"Contact"} number={"04"} />
             </main>
             <Footer />
         </>

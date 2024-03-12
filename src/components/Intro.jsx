@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/intro.css";
 
 function Intro() {
     return (
@@ -13,6 +14,10 @@ function Intro() {
                 professionnelle, je suis plein d'enthousiasme et prêt à relever de nouveaux défis. Explorez mon
                 portfolio pour découvrir mes projets personnels et mes réalisations en tant que développeur en herbe.
             </p>
+            <div className="intro-icons">
+                <i className="fa-brands fa-github intro-icon"></i>
+                <i className="fa-brands fa-linkedin intro-icon"></i>
+            </div>
         </section>
     );
 }

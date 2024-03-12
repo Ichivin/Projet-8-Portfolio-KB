@@ -1,0 +1,17 @@
+.section {
+    padding: 20px;
+}
+
+.section-title {
+    color: #393e59;
+    font-size: 2rem;
+    display: flex;
+    gap: 10px;
+}
+
+.section-number {
+    color: #b024b1;
+    padding: 3px;
+    border-left: 2px solid;
+    font-size: 1rem;
+}

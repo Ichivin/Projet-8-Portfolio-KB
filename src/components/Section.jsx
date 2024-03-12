@@ -1,12 +1,13 @@
 import React from "react";
+import "../css/section.css";
 
 function Section({ title, number, anchorId, children }) {
     return (
         <div className="section">
             <h2 id={anchorId} className="section-title">
-                {title}
+                <span>{title}</span>
+                <span className="section-number">{number}</span>
             </h2>
-            <span className="section-number">{number}</span>
             {children}
         </div>
     );

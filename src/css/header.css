@@ -14,9 +14,50 @@
 .header-links {
     display: flex;
     justify-content: space-between;
-    width: 400px;
+    flex-direction: column;
 }
 
 .header-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-link-number {
+    color: #b024b1;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 3px;
+    border-right: 2px solid;
+}
+
+.header-link-name {
+    font-size: 1.25rem;
+}
+
+.header-link-cv {
+    border: 1px solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1.25rem;
+}
+
+.header-link-cv:hover {
+    cursor: pointer;
+    background-color: #393e59;
+    color: #f0f2f2;
+}
+
+.nav {
+    display: none;
+    position: fixed;
+    right: 0;
+    flex-direction: column;
+    top: 100px;
+    background-color: #f0f2f2;
+    padding: 20px;
+}
+
+.visible {
     display: flex;
 }
