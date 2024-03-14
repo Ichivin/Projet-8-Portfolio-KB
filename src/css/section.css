@@ -1,5 +1,7 @@
 .section {
     padding: 20px;
+    max-width: 800px;
+    margin: auto;
 }
 
 .section-title {
@@ -14,4 +16,10 @@
     padding: 3px;
     border-left: 2px solid;
     font-size: 1rem;
+}
+
+@media (min-width: 1250px) {
+    .section {
+        margin-left: 20%;
+    }
 }

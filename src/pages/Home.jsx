@@ -54,13 +54,13 @@ function Home() {
                     <Projects
                         title={"Kasa"}
                         img={kasa}
-                        text={`Réalisation d'un site web de location immobilière. Utilisation de React, React Router et Sass`}
+                        text={`Réalisation d'un site web de location immobilière. Le site est développé en utilisant les technologies React, React Router et Sass`}
                         github={"https://github.com/Ichivin/Projet-6-Kasa"}
                     />
                     <Projects
                         title={"Mon vieux grimoire"}
                         img={grimoire}
-                        text={`Création du Backend du site "Mon vieux grimoires" qui permet l'ajout, la suppression, la modification et la notation de livre.`}
+                        text={`Création du Backend du site "Mon vieux grimoires" qui permet l'ajout, la suppression, la modification et la notation de livre. Utilisation de node.js, Express et MongoDB.`}
                         github={"https://github.com/Ichivin/Projet-7-Mon-Vieux-Grimoire"}
                     />
                 </Section>

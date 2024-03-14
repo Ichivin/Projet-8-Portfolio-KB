@@ -61,3 +61,20 @@
 .visible {
     display: flex;
 }
+
+@media (min-width: 750px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+        position: initial;
+        gap: 30px;
+    }
+    .header-links {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .header-burger {
+        display: none;
+    }
+}

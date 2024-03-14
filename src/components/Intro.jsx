@@ -15,7 +15,9 @@ function Intro() {
                 portfolio pour découvrir mes projets personnels et mes réalisations en tant que développeur en herbe.
             </p>
             <div className="intro-icons">
-                <i className="fa-brands fa-github intro-icon"></i>
+                <a href="https://github.com/Ichivin" target="_blank">
+                    <i className="fa-brands fa-github intro-icon"></i>
+                </a>
                 <i className="fa-brands fa-linkedin intro-icon"></i>
             </div>
         </section>

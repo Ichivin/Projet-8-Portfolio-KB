@@ -6,9 +6,11 @@ function Projects({ title, img, text, link, github }) {
         <div className="projects">
             <div className="projects-header">
                 <h3 className="projects-title">{title}</h3>
-                <a className="projects-github" href={github} target="_blank">
-                    <i className="fa-brands fa-github"></i>
-                </a>
+                {github && (
+                    <a className="projects-github" href={github} target="_blank">
+                        <i className="fa-brands fa-github"></i>
+                    </a>
+                )}
             </div>
             <div className="projects-wrapper">
                 <a href={link} target="_blank">

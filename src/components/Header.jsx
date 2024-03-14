@@ -12,7 +12,7 @@ function Header() {
     return (
         <header className="header">
             <img src={logo} className="header-logo" alt="logo KB" />
-            <i className="fa-solid fa-bars" onClick={() => setIsVisible(!isVisible)}></i>
+            <i className="fa-solid fa-bars header-burger" onClick={() => setIsVisible(!isVisible)}></i>
 
             <nav className={`nav ${isVisible ? "visible" : ""}`}>
                 <ul className="header-links">
