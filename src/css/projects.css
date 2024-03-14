@@ -28,3 +28,12 @@
     bottom: 0;
     padding: 10px;
 }
+
+.projects-header {
+    display: flex;
+    gap: 16px;
+}
+
+.projects-github {
+    font-size: 24px;
+}

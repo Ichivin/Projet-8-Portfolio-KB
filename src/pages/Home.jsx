@@ -25,8 +25,10 @@ function Home() {
                     <Projects
                         title={"Booki"}
                         img={booki}
+                        link={"https://ichivin.github.io/Projet-Booki-K.BLONDIAU/"}
                         text={`Réalisation du front-end d'un site d'agence de voyage nommé Booki avec du code HTML et CSS.
                          Le site est responsive au format tablette et mobile.`}
+                        github={"https://github.com/Ichivin/Projet-Booki-K.BLONDIAU"}
                     />
                     <Projects
                         title={"Sophie Bluel"}
@@ -34,6 +36,7 @@ function Home() {
                         text={`Réalisation du front-end du site portfolio d'une d'architecte d'intérieur.
                         Le but est de créer une page web dynamique avec du Javascript.
                         Création d'une modale pour permettre à l'utilisateur d'ajouter ou de supprimer des images dans la galerie d'images.`}
+                        github={"https://github.com/Ichivin/Portfolio-architecte-sophie-bluel-master"}
                     />
                     <Projects
                         title={"Menu Maker by Qwenta"}
@@ -46,16 +49,19 @@ function Home() {
                         img={nina}
                         text={`Optimisation des performances du site à l'aide des outils Lightouse et Wave, optimisation des images (conversion en format WEBP et redimensionnement).
                         Optimisation du référencement à l'aide des balises meta et utilisation de Schema.org`}
+                        github={"https://github.com/Ichivin/Projet-5"}
                     />
                     <Projects
                         title={"Kasa"}
                         img={kasa}
                         text={`Réalisation d'un site web de location immobilière. Utilisation de React, React Router et Sass`}
+                        github={"https://github.com/Ichivin/Projet-6-Kasa"}
                     />
                     <Projects
                         title={"Mon vieux grimoire"}
                         img={grimoire}
                         text={`Création du Backend du site "Mon vieux grimoires" qui permet l'ajout, la suppression, la modification et la notation de livre.`}
+                        github={"https://github.com/Ichivin/Projet-7-Mon-Vieux-Grimoire"}
                     />
                 </Section>
                 <Section anchorId="about" title={"À propos"} number={"02"}>
