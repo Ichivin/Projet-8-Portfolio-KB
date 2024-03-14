@@ -1,0 +1,13 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-text {
+    color: #393e59;
+    line-height: 1.8rem;
+    font-size: 1.25rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}

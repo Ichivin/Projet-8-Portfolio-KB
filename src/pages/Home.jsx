@@ -12,6 +12,8 @@ import nina from "../images/nina.PNG";
 import bluel from "../images/sophie-bluel.PNG";
 import About from "../components/About";
 import Technologies from "../components/Technologies";
+import Contact from "../components/Contact";
+import Modal from "../components/Modal";
 
 function Home() {
     return (
@@ -62,7 +64,9 @@ function Home() {
                 <Section anchorId="technologies" title={"Technologies"} number={"03"}>
                     <Technologies />
                 </Section>
-                <Section anchorId="contact" title={"Contact"} number={"04"} />
+                <Section anchorId="contact" title={"Contact"} number={"04"}>
+                    <Contact />
+                </Section>
             </main>
             <Footer />
         </>
