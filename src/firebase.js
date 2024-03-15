@@ -4,9 +4,11 @@ import { getFirestore } from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
+const apiKey = process.env.FIREBASE_API_KEY;
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBiW2A1GPMPipefwBAtn0Dna-Q0Bnisqig",
+    apiKey: apiKey,
     authDomain: "p8-portfolio.firebaseapp.com",
     projectId: "p8-portfolio",
     storageBucket: "p8-portfolio.appspot.com",
