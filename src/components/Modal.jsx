@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../css/modal.css";
+import { collection, addDoc } from "firebase/firestore";
+import { db } from "../firebase.js";
 
 function Modal() {
     const [modal, setModal] = useState(false);
@@ -22,9 +24,18 @@ function Modal() {
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(formData);
+        try {
+            const docRef = await addDoc(collection(db, "formSubmits"), {
+                name: formData.name,
+                email: formData.email,
+                message: formData.message,
+            });
+            console.log("Document written with ID: ", docRef.id);
+        } catch (e) {
+            console.error("Error adding document: ", e);
+        }
         setFormData({
             name: "",
             email: "",

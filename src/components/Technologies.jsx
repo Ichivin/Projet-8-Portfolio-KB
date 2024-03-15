@@ -15,21 +15,26 @@ import vscode from "../images/vscode.png";
 import Technology from "./Technology";
 
 function Technologies() {
+    const arrayTechnologies = [
+        { img: html, name: "HTML" },
+        { img: css, name: "CSS" },
+        { img: js, name: "Javascript" },
+        { img: react, name: "React" },
+        { img: sass, name: "Sass" },
+        { img: github, name: "Github" },
+        { img: nodejs, name: "Nodejs" },
+        { img: express, name: "Express" },
+        { img: mongodb, name: "Mongodb" },
+        { img: firebase, name: "firebase" },
+        { img: npm, name: "NPM" },
+        { img: vscode, name: "VSCODE" },
+    ];
     return (
         <div className="technologies">
             <ul className="technologies-list">
-                <Technology img={html} name={"HTMl"} />
-                <Technology img={css} name={"CSS"} />
-                <Technology img={js} name={"Javascript"} />
-                <Technology img={react} name={"React"} />
-                <Technology img={sass} name={"Sass"} />
-                <Technology img={github} name={"Github"} />
-                <Technology img={nodejs} name={"Nodejs"} />
-                <Technology img={express} name={"Express"} />
-                <Technology img={mongodb} name={"Mongodb"} />
-                <Technology img={firebase} name={"Firebase"} />
-                <Technology img={npm} name={"NPM"} />
-                <Technology img={vscode} name={"VSCODE"} />
+                {arrayTechnologies.map(({ img, name }, i) => (
+                    <Technology img={img} name={name} key={i} />
+                ))}
             </ul>
         </div>
     );
