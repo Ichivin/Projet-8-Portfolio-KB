@@ -5,11 +5,12 @@ import { getFirestore } from "firebase/firestore";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 const apiKey = process.env.FIREBASE_API_KEY;
+const authDomain = process.env.FIREBASE_AUTH_DOMAIN;
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: apiKey,
-    authDomain: "p8-portfolio.firebaseapp.com",
+    authDomain: authDomain,
     projectId: "p8-portfolio",
     storageBucket: "p8-portfolio.appspot.com",
     messagingSenderId: "300380584626",
