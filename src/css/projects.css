@@ -35,3 +35,21 @@
 .projects-github {
     font-size: 24px;
 }
+
+@media (min-width: 850px) {
+    .section {
+        max-width: 1100px;
+    }
+    .projects-wrapper {
+        max-width: 600px;
+    }
+    .projects-container {
+        display: grid;
+    }
+    .projects:nth-child(2n) {
+        justify-self: end;
+    }
+    .projects:nth-child(2n + 1) {
+        justify-self: start;
+    }
+}

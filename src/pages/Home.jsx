@@ -37,16 +37,18 @@ function Home() {
             <main>
                 <Intro />
                 <Section anchorId="projets" title={"Projets"} number={"01"}>
-                    {projects.map((project) => (
-                        <Projects
-                            key={project.id}
-                            title={project.title}
-                            img={project.img}
-                            link={project.link}
-                            text={project.text}
-                            github={project.github}
-                        />
-                    ))}
+                    <div className="projects-container">
+                        {projects.map((project) => (
+                            <Projects
+                                key={project.id}
+                                title={project.title}
+                                img={project.img}
+                                link={project.link}
+                                text={project.text}
+                                github={project.github}
+                            />
+                        ))}
+                    </div>
                 </Section>
                 <Section anchorId="about" title={"À propos"} number={"02"}>
                     <About />

@@ -1,27 +1,41 @@
 .intro {
-    padding: 30px;
-    max-width: 800px;
-    margin: auto;
+    display: flex;
+    padding: 30px 10%;
+    background-color: #6991d1;
+}
+
+.intro-container {
 }
 
 .intro-title {
-    color: #273273;
+    color: white;
     font-size: 4rem;
     font-weight: 500;
 }
 
 .intro-subtitle {
-    color: #6a73a6;
+    color: white;
     font-weight: 400;
     font-size: 2.25em;
 }
 
 .intro-text {
-    color: #273273;
+    color: white;
     margin-top: 20px;
     font-weight: 400;
     line-height: 1.8rem;
     font-size: 1.25em;
+    opacity: 0;
+    animation: fadeIn 2s 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .intro-icons {
@@ -33,11 +47,21 @@
 
 .intro-icon {
     font-size: 3em;
-    color: #282e54;
+    color: white;
 }
 
-@media (min-width: 1250px) {
-    .intro {
-        margin-left: 20%;
+.intro-img {
+    align-self: center;
+    margin-left: 50px;
+}
+
+@media (min-width: 750px) {
+    .intro-container {
+    }
+}
+
+@media (max-width: 1000px) {
+    .intro-img {
+        display: none;
     }
 }

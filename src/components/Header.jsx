@@ -10,8 +10,10 @@ function Header() {
         element.scrollIntoView({ behavior: "smooth" });
     };
     return (
-        <header className="header">
-            <img src={logo} className="header-logo" alt="logo KB" />
+        <header className="header" id="KB">
+            <a href="#KB" onClick={(e) => window.scrollTo({ top: 0, behavior: "smooth" })}>
+                <img src={logo} className="header-logo" alt="logo KB" id="KB" />
+            </a>
             <i className="fa-solid fa-bars header-burger" onClick={() => setIsVisible(!isVisible)}></i>
 
             <nav className={`nav ${isVisible ? "visible" : ""}`}>
