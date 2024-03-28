@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../css/projects.css";
+import { useInView } from "framer-motion";
 
 function Projects({ title, img, text, link, github }) {
+    const ref = useRef(null);
+    const isInView = useInView(ref);
+
     return (
-        <div className="projects">
+        <div className={`projects ${isInView ? "fadin" : ""}`} ref={ref}>
             <div className="projects-header">
                 <h3 className="projects-title">{title}</h3>
                 {github && (
@@ -16,7 +20,9 @@ function Projects({ title, img, text, link, github }) {
                 <a href={link} target="_blank">
                     <img src={img} className="projects-img" alt={title} />
                 </a>
-                <p className="projects-text">{text}</p>
+                <div className="projects-info">
+                    <p className="projects-text">{text}</p>
+                </div>
             </div>
         </div>
     );

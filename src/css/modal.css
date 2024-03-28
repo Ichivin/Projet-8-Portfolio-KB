@@ -67,4 +67,8 @@
 
 .modal-button {
     padding: 20px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    color: black;
+    font-size: 18px;
 }
