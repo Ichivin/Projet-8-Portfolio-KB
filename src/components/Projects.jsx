@@ -7,7 +7,7 @@ function Projects({ title, img, text, link, github }) {
     const isInView = useInView(ref);
 
     return (
-        <div className={`projects ${isInView ? "fadin" : ""}`} ref={ref}>
+        <div className={`projects ${isInView ? "fadeIn" : ""}`} ref={ref}>
             <div className="projects-header">
                 <h3 className="projects-title">{title}</h3>
                 {github && (

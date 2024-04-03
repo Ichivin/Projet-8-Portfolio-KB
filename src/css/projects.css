@@ -38,7 +38,7 @@
     font-size: 24px;
 }
 
-.fadin {
+.fadeIn {
     animation: fadeIn 1.5s ease-in forwards;
 }
 

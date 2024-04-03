@@ -71,4 +71,10 @@
     background-color: white;
     color: black;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.modal-button:hover {
+    background-color: #393e59;
+    color: white;
 }

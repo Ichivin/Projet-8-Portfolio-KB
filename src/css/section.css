@@ -18,8 +18,8 @@
     font-size: 1rem;
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1750px) {
     .section {
-        margin-left: 20%;
+        margin-left: 15%;
     }
 }
