@@ -2,7 +2,6 @@ import React from "react";
 import "../css/about.css";
 
 function About() {
-<<<<<<< HEAD
     return (
         <div className="about">
             <p className="about-text">
@@ -22,7 +21,6 @@ function About() {
             </p>
         </div>
     );
-=======
   return (
     <div className="about">
       <p className="about-text">
@@ -47,7 +45,6 @@ function About() {
       </p>
     </div>
   );
->>>>>>> 2732536 (change portfolio to firm)
 }
 
 export default About;
