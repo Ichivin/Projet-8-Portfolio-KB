@@ -22,7 +22,6 @@ function Intro() {
     "Kévin Blondiau",
     "Développeur d'application web",
     `Bienvenue sur mon portfolio ! Je suis un développeur web passionné qui se lance dans le monde
->>>>>>> 2732536 (change portfolio to firm)
   excitant de la création web, je suis déterminé à acquérir de l'expérience et à développer mes
   compétences dans ce domaine en constante évolution. Je suis spécialisé dans la création de sites web
   dynamiques et attrayants en utilisant les langages HTML, CSS et JavaScript. Bien que je n'aie pas
