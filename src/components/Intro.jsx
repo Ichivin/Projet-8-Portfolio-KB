@@ -4,7 +4,6 @@ import { TypeAnimation } from "react-type-animation";
 import webdev from "../images/webdev.svg";
 
 function Intro() {
-<<<<<<< HEAD
     const scrollTo = (e, id) => {
         e.preventDefault();
         const element = document.getElementById(id);
@@ -14,7 +13,6 @@ function Intro() {
         "Kévin Blondiau",
         "Développeur d'application web",
         `Bienvenue sur mon portfolio ! Je suis un développeur web passionné qui se lance dans le monde
-=======
   const scrollTo = (e, id) => {
     e.preventDefault();
     const element = document.getElementById(id);
@@ -31,7 +29,6 @@ function Intro() {
   encore d'expérience professionnelle, je suis plein d'enthousiasme et prêt à relever de nouveaux
   défis. Explorez mon portfolio pour découvrir mes projets personnels et mes réalisations en tant que
   développeur en herbe.`,
-<<<<<<< HEAD
     ];
 
     return (
@@ -77,7 +74,6 @@ function Intro() {
             </a>
         </section>
     );
-=======
   ];
 
   return (
@@ -127,7 +123,6 @@ function Intro() {
       </a>
     </section>
   );
->>>>>>> 2732536 (change portfolio to firm)
 }
 
 export default Intro;
