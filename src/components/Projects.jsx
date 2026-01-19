@@ -11,13 +11,13 @@ function Projects({ title, img, text, link, github }) {
             <div className="projects-header">
                 <h3 className="projects-title">{title}</h3>
                 {github && (
-                    <a className="projects-github" href={github} target="_blank">
+                    <a className="projects-github" href={github} target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-github"></i>
                     </a>
                 )}
             </div>
             <div className="projects-wrapper">
-                <a href={link} target="_blank">
+                <a href={link} target="_blank" rel="noopener noreferrer">
                     <img src={img} className="projects-img" alt={title} />
                 </a>
                 <div className="projects-info">
