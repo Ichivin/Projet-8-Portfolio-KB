@@ -43,7 +43,7 @@ function Header() {
                         </a>
                     </li>
                 </ul>
-                <a className="header-link-cv" href="">
+                <a className="header-link-cv" href="https://drive.google.com/file/d/13VOw0pg_GrGKYqUste0-0z_UCCvLJtzX/view?usp=drive_link">
                     Resume
                 </a>
             </nav>
