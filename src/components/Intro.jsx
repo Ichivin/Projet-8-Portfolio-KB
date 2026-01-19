@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import "../css/intro.css";
 import { TypeAnimation } from "react-type-animation";
 import webdev from "../images/webdev.svg";
@@ -9,7 +8,7 @@ function Intro() {
     const element = document.getElementById(id);
     element.scrollIntoView({ behavior: "smooth" });
   };
-  let dataText = [
+  /*let dataText = [
     "Kévin Blondiau",
     "Développeur d'application web",
     `Bienvenue sur mon portfolio ! Je suis un développeur web passionné qui se lance dans le monde
@@ -19,7 +18,7 @@ function Intro() {
   encore d'expérience professionnelle, je suis plein d'enthousiasme et prêt à relever de nouveaux
   défis. Explorez mon portfolio pour découvrir mes projets personnels et mes réalisations en tant que
   développeur en herbe.`,
-  ];
+  ];*/
 
   return (
     <section className="intro-section">
