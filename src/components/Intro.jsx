@@ -51,7 +51,13 @@ function Intro() {
             numériques.
           </p>
           <div className="intro-icons">
-            <i className="fa-brands fa-linkedin intro-icon"></i>
+            <a
+              href="https://www.linkedin.com/in/kévin-blondiau-452536207"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-linkedin intro-icon"></i>
+            </a>
           </div>
         </div>
         <div className="intro-img">
